@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
   <title>Star Wars Responsive Challenge</title>
+
+  <!-- SEO Goodies and Accessibility -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Grid layout practice for Thinkful course.">
+  <meta name="keywords" content="Star Wars,Thinkful,practice,layout,ryan">
+  <meta name="author" content="Ryan Moore">
+
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,10 +28,8 @@
 	<header>
 		<div class="row">
 			<div class="col-12">
-				<div>
-					<h1>Star Wars Characters</h1>
-					<p>Incomplete List</p>
-				</div>
+				<h1>Star Wars Characters</h1>
+				<p>Incomplete List</p>
 			</div>
 		</div>	
 	</header>
@@ -33,24 +37,64 @@
 	<main>
 		<div class="row">
 	      <div class="col-4">
-	        <div class="card">Ray</div>
+	        <div class="card">
+	        	<img src="images/rey_square.png">
+	        	<div class="card-content">
+	        		<h2>Rey</h2>
+	        		<p>Protagonist, from Tatooine</p>
+	        	</div>
+	        </div>
 	      </div>
 	      <div class="col-4">
-	        <div class="card">Finn</div>
+	        <div class="card">
+	        	<img src="images/finn_square.png">
+	        	<div class="card-content">
+	        		<h2>Finn</h2>
+	        		<p>Storm trooper, befriends Rey</p>
+	        	</div>
+	        </div>
 	      </div>
 	      <div class="col-4">
-	        <div class="card">Kylo</div>
+	        <div class="card">
+	        	<img src="images/kylo_square.png">
+	        	<div class="card-content">
+	        		<h2>Kylo</h2>
+	        		<p>Main villain, or is he?</p>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="row">
+	      <div class="col-4">
+	        <div class="card">
+	        	<img src="images/poe_square.png">
+	        	<div class="card-content">
+	        		<h2>Poe</h2>
+	        		<p>Neutral pilot</p>
+	        	</div>
+	        </div>
 	      </div>
 	      <div class="col-4">
-	        <div class="card">Poe</div>
+	        <div class="card">
+	        	<img src="images/chewbacca_square.png">
+	        	<div class="card-content">
+	        		<h2>Chewbacca</h2>
+	        		<p>A great first mate</p>
+	        	</div>
+	        </div>
 	      </div>
 	      <div class="col-4">
-	        <div class="card">Chewbacca</div>
-	      </div>
-	      <div class="col-4">
-	        <div class="card">Yoda</div>
+	        <div class="card">
+	        	<img src="images/yoda_square.png">
+	        	<div class="card-content">
+	        		<h2>Yoda</h2>
+	        		<p>Wise old Jedi master</p>
+	        	</div>
+	        </div>
 	      </div>
     	</div>
+
 	</main>
 </body>
 </html>
